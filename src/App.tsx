@@ -4,6 +4,7 @@ function App() {
       {/* Header ด้านบน */}
       <header className="text-white bg-primary p-2 w-100">
         <h4>Note App</h4>
+        
       </header>
 
       <div className="d-flex flex-grow-1">
@@ -42,6 +43,7 @@ function App() {
             <div className="m-2 p-2">
               <form className="row">
                 <div className="col-10">
+                  <h2>Phurin Inthajak</h2>
                   <input
                     className="form-control"
                     type="text"
