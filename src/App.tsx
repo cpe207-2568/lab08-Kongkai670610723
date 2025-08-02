@@ -3,16 +3,17 @@ import {Sidebar} from "./components/Sidebar.tsx"
 import {TaskInput} from "./components/TaskInput.tsx"
 import {Task} from "./components/Task.tsx"
 import {Footer} from "./components/Footer.tsx"
+import type {TaskProps} from "./libs/types.ts";
 
 
 function App() {
 
-  const TaskCards: TaskCardProps [] = [
+  const TaskCards: TaskProps [] = [
     { id: 1, title: "Read a book", description: "Vite + React + Bootstrap + TS", isDone: false },
     { id: 2, title: "Write code", description: "Finish project for class", isDone: false },
     { id: 3, title: "Deploy app", description: "Push project to GitHub Pages", isDone: false }
   ];
-
+  
 
   return (
     <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
