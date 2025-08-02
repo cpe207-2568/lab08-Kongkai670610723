@@ -3,7 +3,7 @@ import {Sidebar} from "./components/Sidebar.tsx"
 import {TaskInput} from "./components/TaskInput.tsx"
 import {Task} from "./components/Task.tsx"
 import {Footer} from "./components/Footer.tsx"
-import type {TaskProps} from "./libs/types.ts";
+import type { TaskProps } from "./libs/types.tsx"
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   ];
   
 
-  
+
   return (
     <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
       {/* Header ด้านบน */}
